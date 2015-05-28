@@ -11,6 +11,5 @@ class sphinx {
   }
 
   package { 'boxen/brews/sphinx':
-    ensure  => '2.0.6-boxen1'
   }
 }
