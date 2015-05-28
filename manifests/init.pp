@@ -7,9 +7,9 @@ class sphinx {
   include homebrew
 
   homebrew::formula { 'sphinx':
-    before => Package['boxen/brews/sphinx']
+    before => Package['sphinx']
   }
 
-  package { 'boxen/brews/sphinx':
+  package { 'sphinx':
   }
 }
